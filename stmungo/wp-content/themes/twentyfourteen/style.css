@@ -1,0 +1,203 @@
+/*
+Theme Name: Twenty Fourteen
+Theme URI: http://wordpress.org/themes/twentyfourteen
+Author: the WordPress team
+Author URI: http://wordpress.org/
+Description: In 2014, our default theme lets you create a responsive magazine website with a sleek, modern design. Feature your favorite homepage content in either a grid or a slider. Use the three widget areas to customize your website, and change your content's layout with a full-width page template and a contributor page to show off your authors. Creating a magazine website with WordPress has never been easier.
+Version: 1.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, green, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+Text Domain: twentyfourteen
+*/
+body {
+	font-family: philosopher, sans-serif;
+	cursor: url('images/use160.cur'), auto;
+}
+
+.outer_main {
+	background-color: #FAF6EB;
+}
+
+.header {
+	width: ;
+	background-color: #2E2633;
+	height: 150px;
+	padding: 20px;
+}
+
+.header h1 { /*font-family: snippet, sans-serif;*/
+	font-family: philosopher, sans-serif;
+	font-weight: bold;
+	color: #FAF6EB;
+	font-size: 50px;
+	margin: 20px 20px 20px 160px;
+	padding: 0;
+}
+
+h2 {
+	color: #99173C;
+}
+
+.header p {
+	font-size: 25px;
+	margin-left: 266px;
+	color: #FAF6EB;
+}
+
+.page_main {
+	width: 968px;
+	min-height: 375px;
+	margin: 0 auto;
+	padding: 40px;
+	overflow: auto;
+}
+
+.infobar {
+	width: 100%;
+	background-color: #DCE9BE;
+	padding: 10px;
+	margin-bottom: 25px;
+}
+
+.infobar.top {
+	width: auto;
+	margin-bottom: 0;
+	height: 20px;
+}
+
+.infobar.top p {
+	margin: 0;
+	float: right;
+	margin-right: 200px;
+}
+
+label {
+	float: left;
+	width: 200px;
+}
+
+input[type="text"],input[type="password"],select {
+	width: 250px;
+	height: 25px;
+}
+
+select {
+	height: 30px;
+}
+
+.red,p.error {
+	color: #99173C;
+}
+
+.btm {
+	width: 120px;
+	height: 38px;
+	border: none;
+	cursor: pointer;
+}
+
+.submit_btm {
+	background: url(images/submit_btm.png) no-repeat;
+}
+
+.login_btm {
+	background: url(images/login_btm.png) no-repeat;
+}
+
+table {
+	width: 100%;
+	margin: 0px auto;
+}
+
+tr.header_row {
+	background-color: #DCE9BE;
+}
+
+td,th {
+	border: 1px solid #DCE9BE;
+	padding: 5px;
+}
+
+td {
+	text-align: center;
+}
+
+.options {
+	width: auto;
+	height: auto;
+	margin: 0 auto;
+}
+
+.option {
+	width: 350px;
+	height: 75px;
+	background-color: #555152;
+	float: left;
+	margin: 20px;
+	padding: 10px;
+	text-align: center;
+	font-size: 20px;
+	border-radius: 10px;
+}
+
+.option.two,.menu.two {
+	background-color: #DCE9BE;
+}
+
+.option.one p a,.menu.one p a {
+	color: #FAF6EB;
+}
+
+.option.two p a,.menu.two p a {
+	color: #000;
+}
+
+.leftnav {
+	float: left;
+	margin-right: 40px;
+	margin-top: 10px;
+	width: 27%;
+}
+
+.main_content {
+	float: left;
+	width: 65%;
+	height: inherit;
+}
+
+.menu {
+	width: auto;
+	border-radius: 10px;
+	height: 40px;
+	background-color: #555152;
+	text-align: center;
+	margin-bottom: 20px;
+	padding-top: 1px;
+}
+
+.menu p {
+	margin: 10px 0;
+}
+
+.ui-widget-header {
+	background: #555152;
+	border: 1px solid #2E2633;
+}
+
+p.error {
+	font-size: 13px;
+}
+
+.footer {
+	background-color: #2E2633;
+	height: 25px;
+	padding: 20px;
+}
+
+.footer p {
+	color: #FAF6EB;
+	font-size: 13px;
+	margin: 0px 10px 10px 160px;
+	padding: 0;
+}
